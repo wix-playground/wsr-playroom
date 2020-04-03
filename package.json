@@ -17,11 +17,8 @@
     "versionBumpStrategy": "minor"
   },
   "scripts": {
-    "start": "yoshi start",
-    "build": "yoshi build",
-    "test": "yoshi test",
-    "lint": "yoshi lint",
-    "posttest": "npm run lint"
+    "start": "playroom start",
+    "build": "playroom build"
   },
   "husky": {
     "hooks": {
@@ -34,6 +31,10 @@
   "devDependencies": {
     "husky": "^4.2.1",
     "lint-staged": "^10.0.7",
+    "playroom": "^0.16.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "wix-style-react": "^7.54.0",
     "yoshi": "^4.0.0"
   },
   "jest": {

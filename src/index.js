@@ -1,3 +1,1 @@
-import Counter from './counter';
-
-export default new Counter();
+export * from 'wix-style-react';
