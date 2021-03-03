@@ -35,7 +35,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "wix-style-react": "^7.54.0",
-    "yoshi": "^4.0.0"
+    "@wix/yoshi": "^4.0.0"
   },
   "jest": {
     "testPathIgnorePatterns": [
